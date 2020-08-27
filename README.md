@@ -24,9 +24,9 @@ rongcloud-ios-imdemo-systeminformation 是基于融云 IMKit SDK 的简单集成
 
 1. 系统会话仅支持服务端发送消息，所以客户端无法在系统会话内发送消息。
 
-2. 新用户默认是空的会话列表，是无法进入会话页面的。开发者可在 [开发者后台 - 服务管理 - API 调用 - 消息服务](https://developer.rongcloud.cn/apitool/kNUDHRczlPHkECa0SJ8X3Q)  中调用对应接口给当前用户发送消息。
+2. 新用户默认是空的会话列表，是无法进入会话页面的。开发者可在 [开发者后台 - 服务管理 - API 调用 - 消息服务](https://developer.rongcloud.cn/apitool/kNUDHRczlPHkECa0SJ8X3Q)  中调    用对应接口给当前用户发送消息。
 
-发送成功后，接收方的会话列表展示此会话。
+   发送成功后，接收方的会话列表展示此会话。
 
 3. 用户可在开发者后台的消息服务 - 发送系统消息 中填入对应参数发送系统消息。 自定义消息可输入下面内容，demo 中已经实现此自定义消息的编解码与 UI 显示。
 	
