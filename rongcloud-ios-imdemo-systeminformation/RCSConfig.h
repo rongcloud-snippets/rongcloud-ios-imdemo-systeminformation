@@ -20,3 +20,6 @@
 #define RONGCLOUD_TOKEN  @""
 
 #endif /* RCSConfig_h */
+
+//编译时会执行脚本，通过 podfile 文件识别 SDK 版本
+#define SDK_VERSION 4
